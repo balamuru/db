@@ -11,6 +11,6 @@ If connecting from the same workstation, connect to `localhost:3306`  using your
 
 `docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mariadbtest`
 
-## Setup sample data by executing the SQL statements in `setup.sql` (Use your tool of choice)
+## Setup sample data by executing the SQL statements in `setup.sql` (Use tooling/IDE Plugin of choice)
 
 ## Have fun experimenting 
